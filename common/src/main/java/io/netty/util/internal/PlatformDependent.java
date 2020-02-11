@@ -246,7 +246,7 @@ public final class PlatformDependent {
                             } catch (SecurityException e) {
                                 logger.debug("Unable to read {}", osReleaseFileName, e);
                             } catch (IOException e) {
-                                logger.debug("Error while read content of{}", osReleaseFileName, e);
+                                logger.debug("Error while read content of {}", osReleaseFileName, e);
                             } finally {
                                 if (reader != null) {
                                     try {
